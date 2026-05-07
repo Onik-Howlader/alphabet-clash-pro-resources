@@ -24,3 +24,5 @@ function getRandomAlphabet(){
     // console.log(index, alphabet)
     return alphabet;
 }
+
+
