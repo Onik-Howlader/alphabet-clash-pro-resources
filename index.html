@@ -72,23 +72,25 @@
             <div class="flex justify-between w-3/6 mx-auto">
                 <button class="btn btn-active btn-secondary rounded-full">Life
                     <img src="./images/Group 23.svg" alt="">
-                    <span>1</span>
+                    <span id="reduce-life">8</span>
                 </button>
                 <button class="btn btn-active btn-secondary rounded-full">score
                     <img src="./images/monetization_on.png" alt="">
-                    <span>1</span>
+                    <span id="current-score">0</span>
                 </button>
             </div>
             <!-- score -->
         </div>
         </section>
-        <section class="score flex flex-col justify-center items-center min-h-screen font-poppins hidden">
-        <div class="text-white  space-y-7 border rounded-lg p-6 bg justify-center flex flex-col items-center">
+
+        
+        <section id="final-score" class=" flex flex-col justify-center items-center min-h-screen font-poppins hidden">
+        <div class="text-white  space-y-7 border rounded-lg p-6 bg justify-center flex flex-col items-center ">
             <h1 class="text-8xl font-extrabold">
-                <span>Score :</span>
-                <span>14</span>
+                <span id="current-score">Score :</span>
+                <span id="game-score">0</span>
                 </h1>
-                <button class="btn btn-dash btn-secondary">Play Again</button>
+                <button onclick="play()" class="btn btn-dash btn-secondary">Play Again</button>
                 <p>Practice will make you Pro</p>
         </div>
         </section>
